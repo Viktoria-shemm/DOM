@@ -28,3 +28,6 @@ const itemTwoAppend = item[2].querySelector(".props__list");
 itemTwoAppend.append(itemTwoWithIndexZero);
 itemTwoAppend.append(itemTwoWithIndexOne);
 
+const advertising = document.querySelector(".ads");
+advertising.remove();
+
